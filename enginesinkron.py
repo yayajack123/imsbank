@@ -277,7 +277,7 @@ def engineSingkronisasi(insertToko, hapusToko, updateToko, tokoUpdate, insertBan
 while(1):
     # try:
         connToko = pymysql.connect(host='remotemysql.com', user='bYyUrZbwkl', passwd='3JEFXpZFE7', db='bYyUrZbwkl')
-        connBank = pymysql.connect(host='remotemysql.com', user='RNYzmcfN9Y', passwd='gA8kVJKa0B', db='RNYzmcfN9Y')
+        connBank = pymysql.connect(host='remotemysql.com', user='pxB2pDsLe7', passwd='ik4APvPLqT', db='pxB2pDsLe7')
         curToko = connToko.cursor()
         curBank = connBank.cursor()
         tokoTransaksi=[]
