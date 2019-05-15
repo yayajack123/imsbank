@@ -1,2 +1,2 @@
 PyMySQL
-pip3
+pip
